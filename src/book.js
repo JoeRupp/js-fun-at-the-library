@@ -22,7 +22,7 @@ function saveReview(newReview, reviews) {
 }
 
 // Alternate method using indexOf.
-// indexOf - provides index position of element
+// indexOf - provides index position of element. -1 if not in array.
 
 // function saveReview(newReview, reviews) {
 //     if (reviews.indexOf(newReview) === -1) {
